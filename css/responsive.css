@@ -209,7 +209,7 @@
     }
 
     .container .content .font-awesome-two .icone {
-        margin-right: 29px;
+        margin-right: 27px;
     }
 
     .container .content .font-awesome-two .fa-slack::after,
@@ -330,7 +330,7 @@
 
     /* Sing Up Area Start  */
     .container .sign-up {
-        padding: 0px;
+        padding: 35PX 0;
     }
 
     .container .sign-up h1 {
