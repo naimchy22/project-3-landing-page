@@ -322,3 +322,54 @@
     }
     /* contact Area Css End */
 }
+
+
+@media only screen and (min-width: 365px) {
+    .container .heading-area .link a {
+        left: 277px;
+        padding: 6px 10px;
+    }
+
+    .container .heading-area .logo h1 {
+        left: 146px;
+    }
+
+    .container .home-area .banner .smiling-young-man {
+            position: absolute;
+            top: 258px;
+            left: -36px;
+    }
+
+    .container .content .font-awesome-two .fa-slack::after,
+     .container .content .font-awesome-two .fa-asymmetrik::after, .Zoover,
+     .container .content .font-awesome-two .fa-microsoft::after {
+        font-size: 11px;
+     }
+
+     .container .how-we-work-area .content .how-we-work ol a {
+            font-size: 14px;
+     }
+     
+
+     .container .how-we-work-area .content .how-we-work ol li:hover {
+        padding: 10px 0px 10px 0px;
+        
+     }
+
+     .container .how-we-work-area .content img {
+        position: absolute;
+        top: 64px;
+        left: -51px;
+        width: 437px;
+    }
+
+
+    .container .sign-up {
+        padding: 55px 0px;
+    }
+
+    .container .contact-area .w-50 .img-bg [alt="Businessman"] {
+        width: 100%;
+        left: 0;
+    }
+}
