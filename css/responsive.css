@@ -1,10 +1,75 @@
+/* Ipad view css start */
+@media only screen and (max-width: 810px) {
+    .container .heading-area .link a {
+        padding: 7px 8px;
+    }
 
+    .container .heading-area .logo h1 {
+        left: 177px;
+    }
+
+    .container .home-area .banner .smiling-young-man {
+            position: absolute;
+            top: 258px;
+            left: -36px;
+    }
+
+    .container .content .font-awesome-two .fa-slack::after,
+     .container .content .font-awesome-two .fa-asymmetrik::after, .Zoover,
+     .container .content .font-awesome-two .fa-microsoft::after {
+        font-size: 11px;
+     }
+
+     .container .how-we-work-area .content .how-we-work ol a {
+            font-size: 14px;
+     }
+     
+
+     .container .how-we-work-area .content .how-we-work ol li:hover {
+        padding: 10px 0px 10px 0px;
+        
+     }
+
+     .container .how-we-work-area .content img {
+        position: absolute;
+        top: 64px;
+        left: -51px;
+        width: 437px;
+    }
+
+
+    .container .sign-up {
+        padding: 55px 0px;
+    }
+
+    .container .contact-area .w-50 .img-bg [alt="Businessman"] {
+        width: 100%;
+        left: 0;
+    }
+}
+
+/* Ipad view css End */
+
+
+
+/* Phone view Css Area Start*/
 @media only screen and (max-width: 428px) {
+    /* Common Css Start */
+    .w-10 {
+        width: 20%;
+    }
+    /* Common Css End */
+
+    
     /* Heading Area Start */
+    .container .heading-area .link {
+        position: relative;
+    }
+
     .container .heading-area .logo h1 {
         position: absolute;
-        left: 189px;
-        top: 7%;
+        left: 184px;
+        top: 8%;
         margin: 0;
     }
     
@@ -17,8 +82,8 @@
         font-size: 10px;
         padding: 7px 11px;
         position: absolute;
-        left: 341px;
-        top: 7px;
+        top: 8px;
+        left: 6px;
     }
 
     .container .heading-area .menu ul li{
@@ -71,6 +136,14 @@
         width: 100%;
     }
 
+    .container .home-area .content .banner .padding {
+        position: relative;
+        top: -51px;
+        left: 78px;
+        height: 39vh;
+        width: 100%;
+    }
+
     .container .home-area .banner .font-awesome [class$="twitter"] {
         padding: 8px;
         font-size: 12px;
@@ -95,21 +168,12 @@
         z-index: 2;
     }
 
-    .container .home-area .banner .links .Project {
-        font-size: 10px;
-        left: 134px;
-        padding: 3px 16px;
-        position: absolute;
-        top: 2px;
-        z-index: 2;
-    }
-
     .container .home-area .banner .smiling-young-man {
         margin-top: 13px;
-        width: 537px;
+        width: 500px;
         position: absolute;
-        top: 227px;
-        left: 19px;
+        top: 10px;
+        left: -48px;
     }
 
     .container .home-area {
@@ -192,14 +256,17 @@
     }
 
     .container .service-how-we-work .desing-development-marketing p {
-        font-size: 12px;
+        font-size: 12.5px;
     }
 
     .container .service-how-we-work .service-area .desing a, .development a, .marketing a {
-        font-size: 10px;
+        font-size: 11.5px;
+        color: rgb(16, 130, 115);
     }
 
-    .container .service-how-we-work .service-area .desing a, .development a:hover, .marketing a:hover {
+    .container .service-how-we-work .service-area .desing a:hover,
+     .development a:hover,
+      .marketing a:hover {
         text-decoration: underline;
     }
 
@@ -212,8 +279,9 @@
     /* How We Work Area Start */
     .container .how-we-work-area .content img {
         position: absolute;
-        top: 0;
-        left: -64px;
+        top: 20px;
+        left: -37px;
+        width: 480px;
     }
 
     .container .how-we-work-area .img-bg {
@@ -322,54 +390,6 @@
     }
     /* contact Area Css End */
 }
+/* Phone view Css Area end*/
 
 
-@media only screen and (min-width: 365px) {
-    .container .heading-area .link a {
-        left: 277px;
-        padding: 6px 10px;
-    }
-
-    .container .heading-area .logo h1 {
-        left: 146px;
-    }
-
-    .container .home-area .banner .smiling-young-man {
-            position: absolute;
-            top: 258px;
-            left: -36px;
-    }
-
-    .container .content .font-awesome-two .fa-slack::after,
-     .container .content .font-awesome-two .fa-asymmetrik::after, .Zoover,
-     .container .content .font-awesome-two .fa-microsoft::after {
-        font-size: 11px;
-     }
-
-     .container .how-we-work-area .content .how-we-work ol a {
-            font-size: 14px;
-     }
-     
-
-     .container .how-we-work-area .content .how-we-work ol li:hover {
-        padding: 10px 0px 10px 0px;
-        
-     }
-
-     .container .how-we-work-area .content img {
-        position: absolute;
-        top: 64px;
-        left: -51px;
-        width: 437px;
-    }
-
-
-    .container .sign-up {
-        padding: 55px 0px;
-    }
-
-    .container .contact-area .w-50 .img-bg [alt="Businessman"] {
-        width: 100%;
-        left: 0;
-    }
-}
