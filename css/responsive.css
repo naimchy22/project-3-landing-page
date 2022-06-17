@@ -68,9 +68,10 @@
 
     .container .heading-area .logo h1 {
         position: absolute;
-        left: 184px;
+        left: 140px;
         top: 8%;
         margin: 0;
+        font-size: 20px;
     }
     
     .container .heading-area .menu {
@@ -79,11 +80,11 @@
     }
 
     .container .heading-area .link a {
-        font-size: 10px;
+        font-size: 8px;
         padding: 7px 11px;
         position: absolute;
         top: 8px;
-        left: 6px;
+        left: 2px;
     }
 
     .container .heading-area .menu ul li{
@@ -139,8 +140,8 @@
     .container .home-area .content .banner .padding {
         position: relative;
         top: -51px;
-        left: 78px;
-        height: 39vh;
+        left: 55px;
+        height: 64vh;
         width: 100%;
     }
 
@@ -169,11 +170,10 @@
     }
 
     .container .home-area .banner .smiling-young-man {
-        margin-top: 13px;
-        width: 500px;
+        width: 470px;
         position: absolute;
-        top: 10px;
-        left: -48px;
+        top: 27px;
+        left: -65px;
     }
 
     .container .home-area {
@@ -205,18 +205,18 @@
     }
 
     .container .content .font-awesome-two .icone, .size {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .container .content .font-awesome-two .icone {
-        margin-right: 32px;
+        margin-right: 29px;
     }
 
     .container .content .font-awesome-two .fa-slack::after,
     .container .content .font-awesome-two .fa-asymmetrik::after,
     .Zoover,
     .container .content .font-awesome-two .fa-microsoft:after {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .container .content .home-bottom-area {
@@ -279,9 +279,9 @@
     /* How We Work Area Start */
     .container .how-we-work-area .content img {
         position: absolute;
-        top: 20px;
-        left: -37px;
-        width: 480px;
+        top: 54px;
+        left: -63px;
+        width: 446px;
     }
 
     .container .how-we-work-area .img-bg {
@@ -310,12 +310,12 @@
     .container .how-we-work-area .content .how-we-work .one,
     .container .how-we-work-area .content .how-we-work .two, 
     .container .how-we-work-area .content .how-we-work .three {
-        font-size: 18px;
-        padding: 5px 12px;
+        font-size: 15px;
+        padding: 4px 10px;
     }
 
     .container .how-we-work-area .content .how-we-work ol a {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .container .how-we-work-area .content .how-we-work .one {
@@ -330,7 +330,7 @@
 
     /* Sing Up Area Start  */
     .container .sign-up {
-        padding: 55px 33px;
+        padding: 0px;
     }
 
     .container .sign-up h1 {
@@ -346,7 +346,7 @@
     }
 
     .container .sign-up .email form #email {
-        width: 65%;
+        width: 61%;
     }
     /* Sign Up Area End */
 
@@ -360,13 +360,9 @@
     }
 
     .container .contact-area .w-50 .img-bg [alt="Businessman"] {
-        width: 289px;
-        position: absolute;
-        border-radius: 50%;
         border: 3px solid #242758;
-        top: 0;
-        left: 50px;
         background: linear-gradient(black,#292828);
+        margin: 0 auto;
     }
 
     .container .contact-area .w-50 .img-bg {
