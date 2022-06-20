@@ -369,7 +369,7 @@
 
 
 /* Phone view Css Area Start*/
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 354px) {
     /* Common Css Start */
     .w-10 {
         width: 20%;
@@ -401,7 +401,7 @@
         padding: 7px 8px;
         position: absolute;
         top: 8px;
-        left: 2px;
+        left: 7px;
     }
 
     .container .heading-area .menu ul li{
@@ -489,7 +489,7 @@
         width: 470px;
         position: absolute;
         top: 11px;
-        left: -94px;
+        left: -71px;
     }
 
     .container .home-area {
