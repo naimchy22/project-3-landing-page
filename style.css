@@ -183,7 +183,7 @@ label {
     text-decoration: none;
     border-radius: 20px;
     position: absolute;
-    top: 3px;
+    top: 1px;
     font-size: 12px;
     font-weight: bold;
     color: #e3f3f1;
@@ -192,7 +192,7 @@ label {
 }
 
 .container .home-area .banner .links .Project {
-	padding: 3px 20px;
+	padding: 2px 20px;
 	background-color: #d63031;
 	text-decoration: none;
 	border-radius: 20px;
@@ -208,7 +208,7 @@ label {
 
 .container .home-area .banner .done-project {
 	padding: 0px 12px;
-	font-size: 18px;
+	font-size: 17px;
     display: inline-block;
     font-weight: 800;
 }
