@@ -12,40 +12,47 @@
 .w-30 {
     width: 30%;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 
 .w-10 {
     width: 10%;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .w-60 {
     width: 60%;
     overflow: hidden;
     float: left;
+    box-sizing: border-box;
 }
 
 .w-40 {
     width: 40%;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .w-50 {
     width: 50%;
     overflow: hidden;
     float: left;
+    box-sizing: border-box;
 }
 
 .content{
     width: 90%;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .w-33 {
     width: 33.33%;
     float: left;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 /* common css end */
@@ -113,7 +120,7 @@ label {
 	padding: 10px 15px;
 	color: #fbfbfb;
 	text-decoration: none;
-    display: inline-block;
+    display: block;
     font-weight: bold;
     font-size: 14px;
     transition: .5s;
