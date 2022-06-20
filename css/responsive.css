@@ -1,5 +1,5 @@
 /* Ipad view css start */
-@media only screen and (max-width: 428px) {
+@media only screen and (min-width: 428px) {
     /* Common Css Start */
     .w-10 {
         width: 15%;
@@ -369,7 +369,7 @@
 
 
 /* Phone view Css Area Start*/
-@media only screen and (max-width: 354px) {
+@media only screen and (max-width: 320px) {
     /* Common Css Start */
     .w-10 {
         width: 20%;
@@ -401,7 +401,7 @@
         padding: 7px 8px;
         position: absolute;
         top: 8px;
-        left: 5px;
+        left: 0px;
     }
 
     .container .heading-area .menu ul li{
