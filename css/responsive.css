@@ -139,6 +139,7 @@
 
     .container .contact-area .w-50 .img-bg {
         background: transparent;
+        height: 292px;
     }
 
     .container .contact-area {
@@ -241,7 +242,7 @@
 
     .container .home-area .content .banner .padding {
         position: relative;
-        top: -51px;
+        top: -27px;
         left: 137px;
         height: 64vh;
         width: 100%;
@@ -274,8 +275,9 @@
     .container .home-area .banner .smiling-young-man {
         width: 470px;
         position: absolute;
-        top: 46px;
+        top: 35px;
         left: -94px;
+        margin-top: 0;
     }
 
     .container .home-area {
@@ -317,7 +319,8 @@
     }
 
     .container .content .font-awesome-two .icone {
-        margin-right: 38px;
+        padding-right: 40px;
+        margin: 0;
     }
 
     .container .content .font-awesome-two .fa-slack::after,
@@ -387,13 +390,15 @@
     /* How We Work Area Start */
     .container .how-we-work-area .content img {
         position: absolute;
-        top: 90px;
-        left: -18px;
-        width: 410px;
+        top: 31px;
+        left: -43px;
+        width: 469px;
+        padding-top: 0;
     }
 
     .container .how-we-work-area .img-bg {
         width: 100%;
+        height: 500px;
     }
 
     .container .how-we-work-area {
@@ -485,7 +490,8 @@
         border: 3px solid #242758;
         background: linear-gradient(black,#292828);
         margin: 0 auto;
-        width: 100%;
+        width: 50%;
+        position: static;
     }
 
     .container .contact-area .w-50 .img-bg {
@@ -515,6 +521,8 @@
     /* contact Area Css End */
 }
 /* Phone view css End */
+
+
 
 
 

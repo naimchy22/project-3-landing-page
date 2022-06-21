@@ -272,7 +272,7 @@ label {
 }
 
 .container .content .font-awesome-two .icone {
-    margin-right: 233px;
+    padding-right: 233px;
 }
 
 .container .content .font-awesome-two .fa-slack::after {
@@ -442,7 +442,7 @@ label {
 .container .service-how-we-work .service-area .desing:hover, 
 .container .service-how-we-work .service-area .development:hover ,
 .container .service-how-we-work .service-area .marketing:hover {
-    background: rgb(9,20,83);
+    background: rgba(21, 35, 101, 0.5);
 
 }
 /* Service Area Hover Css End */
