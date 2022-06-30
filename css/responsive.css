@@ -19,6 +19,7 @@
 
     .container .heading-area .link {
         padding-top: 15px;
+        padding-left: 0px;
     }
 
     .container .home-area .banner .smiling-young-man {
@@ -168,6 +169,7 @@
     /* Heading Area Start */
     .container .heading-area .link {
         position: relative;
+        padding-left: 0px;
     }
 
     .container .heading-area .logo h1 {
@@ -184,11 +186,11 @@
     }
 
     .container .heading-area .link a {
-        font-size: 8px;
-        padding: 7px 8px;
+        font-size: 9px;
+        padding: 7px 10px;
         position: absolute;
         top: 8px;
-        left: 2px;
+        left: 13px;
     }
 
     .container .heading-area .menu ul li{
@@ -523,9 +525,9 @@
 /* Phone view css End */
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 350px) {
     .container .heading-area .logo h1 {
-        left: 155px;
+        left: 145px;
     }
 
     .w-10 {
@@ -541,14 +543,23 @@
         left: -43px;
         width: 400px;
     }
+
+    .container .heading-area .link a {
+        padding: 7px 10px;
+        left: -1px;
+    }
+
+    .container .home-area .content .banner .padding {
+        left: 0;
+        width: 315px;
+    }
+
+    .container .home-area .banner .smiling-young-man {
+        left: -18px;
+    }
+
+    .container .content .font-awesome-two .fa-slack::after, .container .content .font-awesome-two .fa-asymmetrik::after, .Zoover, .container .content .font-awesome-two .fa-microsoft::after,
+    .container .how-we-work-area .content .how-we-work ol a {
+        font-size: 13px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
