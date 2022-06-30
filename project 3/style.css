@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* common css start */
+.w-30 {
+    width: 30%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.w-10 {
+    width: 10%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.w-60 {
+    width: 60%;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+}
+
+.w-40 {
+    width: 40%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.w-50 {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.w-33 {
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* common css end */
+
+.container {
+    background-color: #171312;
+    overflow: hidden;
+}
+
+.container .heading-area {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: #000;
+}
+
+.container .heading-area #checkbox, 
+label {
+    display: none;
+}
+
+.container .heading-area ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.container .heading-area .logo h1 {
+    float: left;
+    margin-top: 23px;
+    color: #dfe6e9;
+}
+
+.container .heading-area .logo h1 span {
+    color: #d63031;
+}
+.container .heading-area .left {
+    float: left;
+}
+
+.container .heading-area .link {
+    float: right;
+    padding-top: 21px;
+}
+
+.container .heading-area .menu {
+    float: left;
+    padding-left: 168px;
+    padding-top: 21px;
+}
+
+.container .heading-area .link a {
+    background-color: #ffb800; 
+    color: #34260b;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 15px 15px 0px 15px;
+    border: 1px solid #805123;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.container .heading-area .menu a {
+	padding: 10px 15px;
+	color: #fbfbfb;
+	text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.container .heading-area span {
+    padding: 10px 0;
+}
+
+/* banner area start */
+
+.container .home-area {
+    background-color: #000000; 
+    height: 550px;
+    position: relative;
+}
+
+.container .home-area .banner .w-60 .fab {
+    font-size: 20px;
+}
+
+.container .home-area .banner .font-awesome [class$="instagram"] {
+	background-color: #feb800;
+	padding: 10px;
+	border-radius: 20px;
+    transition: .5s;
+    margin-left: 6px;
+}
+
+.container .home-area .banner .font-awesome [class$="twitter"] {
+	background-color: #42a091;
+	padding: 10px;
+	border-radius: 20px;
+    transition: .5s;
+    color: #fff;
+	margin-left: 15px;
+}
+
+.container .home-area .banner .font-awesome {
+    padding-top: 70px;
+    line-height: 5;
+}
+
+.container .home-area .banner h1 {
+    margin-bottom: 25px;
+    font-size: 34px;
+    color: #fdfdfd;
+}
+
+.container .home-area .banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #c7c7c7;
+}
+
+.container .home-area .banner .links .Contact {
+    padding: 10px 20px;
+    background-color: #43a091;
+    border: 1px solid #b4cdc9;
+    text-decoration: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #e3f3f1;
+    padding: 12px 25px;
+    transition: .5s;
+}
+
+.container .home-area .banner .links .Project {
+	padding: 2px 20px;
+	background-color: #d63031;
+	text-decoration: none;
+	border-radius: 20px;
+	font-size: 10px;
+    display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 134px;
+    color: #e3f3f1;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+
+.container .home-area .banner .done-project {
+	padding: 0px 12px;
+	font-size: 17px;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.container .home-area .banner .links {
+    position: relative;
+    height: 50px;
+}
+
+.container .home-area .banner .smiling-young-man {
+    margin-top: 13px;
+}
+
+.container .content .experience-member-peoject {
+	border: 2px solid #8b8886;
+	height: 110px;
+    text-align: center;
+    background: #171312;
+}
+
+.container .home-area .banner {
+	overflow: hidden;
+    background: linear-gradient(#000, #00000094),url('images/MAP.png') no-repeat 154px -98px/ cover;
+	position: absolute;
+	top: 66px;
+}
+
+.container .content .experience-member-peoject .experience {
+    border-right: 2px solid #8b8886;
+    float: left;
+    height: 106px;
+    color: #bec6d1;
+}
+
+.container .content .experience-member-peoject .member {
+    border-right: 2px solid #8b8886;
+    float: left;
+    height: 106px;
+    color: #bec6d1;
+}
+
+.container .content .experience-member-peoject .complete {
+    color: #bec6d1;
+}
+
+.container .content .experience-member-peoject .space {
+    padding-top: 28px;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.container .content .experience-member-peoject span {
+    color: #fefdfe;
+    transition: .5s;
+}
+
+.container .content .font-awesome-two {
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+.container .content .font-awesome-two .icone {
+    padding-right: 233px;
+}
+
+.container .content .font-awesome-two .fa-slack::after {
+    content: "Slack";
+    margin-left: 3px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #bec6d1;
+}
+
+.container .content .font-awesome-two .fa-asymmetrik::after {
+    content: "Prudential";
+    margin-left: 3px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #bec6d1;
+}
+
+.container .content .font-awesome-two .fa-microsoft::after {
+    content: "Microsoft";
+    margin-left: 3px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #bec6d1;
+}
+
+.container .content .font-awesome-two .icone,
+.size {
+    font-size: 24px;
+    color: #bec6d1;
+}
+
+.Zoover {
+    font-weight: 800;
+    font-size: 24px;
+    color: #bec6d1;
+}
+
+.container .content .home-bottom-area {
+    position: relative;
+    top: -63px;
+}
+/* banner area start */
+
+/* banner area hover and animation effect start */
+.container .heading-area .menu a:hover {
+    color: #408277;
+}
+
+.container .home-area .banner .font-awesome [class$="twitter"]:hover {
+    transform: rotateZ(45deg);
+    box-shadow: 0 0 13px 0 #ffffffc9;
+}
+
+.container .home-area .banner .font-awesome [class$="instagram"]:hover {
+    box-shadow: 0 0 12px 0 #feb800;
+    transform: rotateZ(45deg);
+}
+
+.container .content .experience-member-peoject span:hover {
+    color: #dce1e8;
+    
+}
+
+.container .home-area .banner .links .Contact:hover,
+.container .home-area .banner .links .Project:hover {
+    box-shadow: 1px 0px 6px 0 #ffffffbd;
+    background-color: #000000;
+}
+
+/* banner area hover and animation effect end */
+
+/* Service And How We Work start */
+.container .service-how-we-work  {
+    background-color: #000;
+}
+/* Service And How We Work End */
+
+/* service area css start */
+.container .service {
+    overflow: hidden;
+}
+
+.container .service-how-we-work .service-area .fab::after {
+    content: 'Service';
+    padding-left: 3px;
+    font-weight: 800;
+    color: #4d9588;
+}
+
+.container .service-how-we-work .service-area .fab {
+    color: #898989;
+    padding-left: 47%;
+    padding-top: 69px;
+    font-size: 20px;
+}
+
+.container .service-how-we-work .service-area h1 {
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 24px;
+	color: #fbfbfb;
+}
+
+.container .service-how-we-work .service-area .desing, 
+.container .service-how-we-work .service-area .development,
+.container .service-how-we-work .service-area .marketing {
+    padding: 20px; 
+    transition: .5s;
+}
+
+.container .service-how-we-work .service-area .desing, 
+.development {
+    border-right: 2px solid #8b8886;
+}
+
+.container .service-how-we-work .desing-development-marketing {
+    border: 2px solid #8b8886;
+    overflow: hidden;
+}
+
+.container .service-how-we-work .service-area .fa-palette {
+    background-color: #5083f9;
+    padding: 12px;
+    color: #faf8fd;
+    border-radius: 50px;
+    margin-bottom: 11px;
+}
+
+.container .service-how-we-work .service-area .fa-code {
+    background-color: #0c2264;
+    padding: 12px;
+    color: #faf8fd;
+    border-radius: 50px;
+    margin-bottom: 11px;
+}
+
+.container .service-how-we-work .service-area .fa-bullhorn {
+    background-color: #ffb900;
+    padding: 12px;
+    color: #faf8fd;
+    border-radius: 50px;
+    margin-bottom: 11px;
+}
+
+.container .service-how-we-work .service-area .desing-development-marketing h6 {
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.container .service-how-we-work .service-area .desing a, 
+.development a,
+.marketing a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #e2e2e2;
+}
+
+.container .service-how-we-work .desing-development-marketing p {
+    color: #898989;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* service area css end */
+
+/* Service Area Hover Css Start */
+.container .service-how-we-work .service-area .desing:hover, 
+.container .service-how-we-work .service-area .development:hover ,
+.container .service-how-we-work .service-area .marketing:hover {
+    background: rgba(21, 35, 101, 0.5);
+
+}
+/* Service Area Hover Css End */
+
+/* How We work area css start */
+.container .how-we-work-area .img-bg {
+    background-image: repeating-conic-gradient(black 85%, #20bcbc);
+    position: relative;
+    height: 500px;
+    border-radius: 532px 532px 0px 0px;
+    width: 343px;
+}
+
+.container .how-we-work-area {
+	height: 600px;
+	overflow: hidden;
+	padding-top: 100px;
+    background-color: #000;
+}
+
+.container .how-we-work-area .content .how-we-work img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container .how-we-work-area .content .how-we-work .fab::after {
+    content: "HOW WE WORK";
+    color: #4a776f;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 4px;
+}
+
+.container .how-we-work-area .content .how-we-work .fab {
+    color: #bec6d1;
+}
+
+.container .how-we-work-area .content .how-we-work h1 {
+    color: #fcfbfc;
+    margin: 20px 0;
+    font-size: 28px;
+} 
+
+.container .how-we-work-area .content .how-we-work {
+    padding: 30px 0px 0px 92px;
+}
+
+.container .how-we-work-area .content .how-we-work ol {
+    list-style-type: none;
+}
+
+.container .how-we-work-area .content .how-we-work ol a {
+    text-decoration: none;
+    color: #e4f7f5;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.container .how-we-work-area .content .how-we-work ol li {
+    margin-bottom: 65px;
+    transition: .5s;
+}
+
+.container .how-we-work-area .content .how-we-work ol li:hover {
+	background-color: #43a091;
+	padding: 10px 0px 10px 24px;
+	border-radius: 49px;
+}
+
+.container .how-we-work-area .content .how-we-work .one,
+.two,
+.three {
+    margin-right: 23px;
+    padding: 5px 15px;
+    font-size: 24px;
+    display: inline-block;
+    font-weight: bold;
+    color: #fdfdfd;
+    border-radius: 50px;
+}
+
+.container .how-we-work-area .content .how-we-work .one {
+    background-color: #157867;
+}
+
+.container .how-we-work-area .content .how-we-work .two {
+    background-color: #5184f9;
+}
+
+.container .how-we-work-area .content .how-we-work .three {
+    background-color: #ffbe0e;
+}
+/* How We work area css end */
+
+/* sign up Area Css Start */
+.container .sign-up {
+    text-align: center;
+    padding: 55px;
+    background: linear-gradient(-216deg,#050505 28%, #040325, #0b0b2f 61%, #450404);
+    margin-top: 15px;
+}
+
+.container .sign-up .email {
+	background-color: #43a091;
+	padding: 6px 6px;
+	width: 34%;
+	display: inline-block;
+	border-radius: 10px;
+    margin-top: 30px;
+}
+
+.container .sign-up h1 {
+    font-size: 28px;
+    color: #fcfcfc;
+    line-height: 1.5;
+}
+
+.container .sign-up strong {
+    font-size: 10px;
+    color: #fcfcfc;
+}
+
+.container .sign-up .email form #email {
+	width: 70%;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+.container .sign-up .email form #email:focus {
+    outline: none;
+}
+
+.container .sign-up .email form #email::placeholder {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.container .sign-up .email form input {
+	display: inline-block;
+	padding: 9px 17px;
+}
+
+.container .sign-up .email [type="submit"] {
+    background-color: #ffbd0f;
+    border: 1px solid #7ea35a;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* sign up Area Css End */
+
+/* Contact Area Css Start */
+.container .contact-area {
+    padding: 100px 0;
+    overflow: hidden;
+    margin-top: 15px;
+    background-color: #000;
+}
+
+.container .contact-area form input[type="text"], textarea {
+	width: 64%;
+	padding: 10px 19px;
+    background-color: #1e1a19;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container .contact-area form input[type="submit"] {
+	background-color: #43a091;
+	padding: 11px 20px;
+	border: 2px solid #bcc4c5;
+	border-radius: 22px;
+	color: #e7fbfb;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.container .contact-area form label {
+    font-weight: bold;
+    color: #e8e8e8;
+}
+
+.container .contact-area .color h1 {
+	color: #f9f9f9;
+	margin: 28px 0;
+	font-size: 24px;
+}
+
+.container .contact-area .w-50 .img-bg {
+	background: repeating-linear-gradient(#17161e -13%,#000 20%,#0b0639 30%);
+	border-radius: 429px 443px 397px 0px;
+	position: relative;
+	height: 409px;
+	top: 1px;
+}
+
+.container .contact-area .w-50 .img-bg [alt="Businessman"] {
+	width: 400px;
+	position: absolute;
+	border-radius: 50%;
+    background: repeating-conic-gradient(#16181fc2, #0e0e0e, #2b2b2b 45deg);
+	border: 3px solid #242758;
+}
+
+.container .contact-area .color input:focus,
+textarea {
+    outline: none;
+}
+
+.container .contact-area .content .color .fa-usps::after {
+    content: 'CONTACT';
+    color: #48746c;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.container .contact-area .content .color .fa-usps {
+    color: #bec6d1;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.container .contact-area .content .color input[type="submit"] {
+    transition: .5s;
+}
+
+.container .contact-area .content .color input[type="submit"]:hover {
+	background-color: #000;
+}
+
+.none {
+    display: none;
+}
+
+/* Contact Area Css End */

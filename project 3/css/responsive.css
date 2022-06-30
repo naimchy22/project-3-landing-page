@@ -1,0 +1,554 @@
+/* Ipad view css start */
+@media only screen and (max-width: 810px) {
+    .container .heading-area .menu {
+        padding-left: 0;
+    }
+
+    .container .heading-area .logo h1 {
+        margin-top: 13px;
+    } 
+
+    .container .heading-area .menu {
+        padding-top: 11px;
+    }
+
+    .container .heading-area .link a {
+        font-size: 10px; 
+        padding: 6px 9px;
+    }
+
+    .container .heading-area .link {
+        padding-top: 15px;
+    }
+
+    .container .home-area .banner .smiling-young-man {
+        margin-top: 81px;
+        width: 510px;
+    }
+
+    .container .home-area .banner h1 {
+        font-size: 25px;
+    }
+
+    .container .home-area .banner p {
+        font-size: 14px;
+    }
+
+    .container .home-area .banner .links .Contact {
+        font-size: 12px;
+        padding: 11px 20px;
+        position: absolute;
+        top: 1px;
+    }
+    
+    .container .home-area .banner .links .Project {
+        position: absolute;
+        top: 1;
+    }
+
+    .container .content .font-awesome-two .icone {
+        margin-right: 94px;
+    }
+
+    .container .service-how-we-work .service-area .fab {
+        padding-left: 43%;
+    }
+
+    .container .how-we-work-area .img-bg {
+        height: 412px;
+        width: 300px;
+    }
+
+    .container .how-we-work-area .img-bg img {
+        width: 388px;
+        padding-top: 25px;
+    }
+
+    .container .how-we-work-area .content .how-we-work .fab::after,
+    .container .how-we-work-area .content .how-we-work .fab {
+        font-size: 12px;
+    }
+
+    .container .how-we-work-area .content .how-we-work h1 {
+        font-size: 18px;
+    }
+
+    .container .service-how-we-work .service-area h1,
+    .container .service-how-we-work .service-area .fab {
+        font-size: 18px;
+    }
+
+    .container .service-how-we-work .service-area .fa-palette,
+    .container .service-how-we-work .service-area .fa-code,
+    .container .service-how-we-work .service-area .fa-marketing {
+        padding: 10px;
+    }
+
+    .container .service-how-we-work .desing-development-marketing p,
+    .container .service-how-we-work .desing-development-marketing p,
+    .container .service-how-we-work .desing-development-marketing p {
+        font-size: 12px;
+    }
+
+    .container .service-how-we-work .service-area .desing a, .development a, .marketing a {
+        font-size: 12px;
+        color: rgb(33, 158, 116);
+    }
+
+    .container .service-how-we-work .service-area .desing,
+    .container .service-how-we-work .service-area .development,
+    .container .service-how-we-work .service-area .marketing {
+        height: 210px;
+    }
+
+    .container .how-we-work-area .content .how-we-work {
+        padding: 12px 0px 0px 58px;
+    }
+
+    .container .how-we-work-area .content .how-we-work ol li:hover {
+        background-color: #43a091;
+        padding: 10px 0px 10px 14px;
+        border-radius: 49px;
+    }
+
+    .container .how-we-work-area .content .how-we-work .one, .two, .three {
+        padding: 6px 13px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+
+    .container .how-we-work-area .content .how-we-work ol a {
+        font-size: 12px;
+    }
+
+    .container .how-we-work-area {
+        height: 514px;
+    }
+
+    .container .sign-up .email {
+        width: 58%;
+    }
+
+    .container .sign-up h1 {
+        font-size: 25px;
+    }
+
+    .res-none {
+        display: none;
+    }
+
+    .container .contact-area .w-50 .img-bg {
+        background: transparent;
+        height: 292px;
+    }
+
+    .container .contact-area {
+        text-align: center;
+    }
+
+    .container .contact-area .w-50 {
+        width: 100%;
+    }
+}
+/* Ipad view css Ends */
+
+
+
+
+/* Phone view css start */
+@media only screen and (max-width: 428px) {
+    /* Common Css Start */
+    .w-10 {
+        width: 15%;
+    }
+
+    /* Common Css End */
+
+    
+    /* Heading Area Start */
+    .container .heading-area .link {
+        position: relative;
+    }
+
+    .container .heading-area .logo h1 {
+        position: absolute;
+        left: 192px;
+        top: 8%;
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    .container .heading-area .menu {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .container .heading-area .link a {
+        font-size: 8px;
+        padding: 7px 8px;
+        position: absolute;
+        top: 8px;
+        left: 2px;
+    }
+
+    .container .heading-area .menu ul li{
+        display: block;
+    }
+
+    .container .heading-area {
+        overflow: visible;
+    }
+
+    .container .heading-area .menu ul {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        background: #0b192b;
+        text-align: center;
+        display: none;
+    }
+
+    .container .heading-area label {
+        display: block;
+    }
+
+    .container .heading-area .menu .fa-bars {
+        position: absolute;
+        top: 12px;
+        font-size: 19px;
+        color: #fff;
+    }
+
+    .container .heading-area .menu ul li:hover {
+        background-color: #12075e;
+    }
+
+    .container .heading-area .menu a:hover {
+        color: #fff;
+    }
+
+    .container .heading-area .menu input:checked + ul {
+        display: block;
+    }
+
+    /* Heading Area End */
+
+    /* Home Area Start */
+    .w-50 {
+        float: none;
+        width: 100%;
+    }
+
+    .container .home-area .content .banner .padding {
+        position: relative;
+        top: -27px;
+        left: 137px;
+        height: 64vh;
+        width: 100%;
+    }
+
+    .container .home-area .banner .font-awesome [class$="twitter"] {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .container .home-area .banner .font-awesome [class$="instagram"] {
+        padding: 8px 9px;
+        font-size: 12px;
+    }
+
+    .container .home-area .banner h1 {
+        font-size: 19px;
+    }
+
+    .container .home-area .banner p {
+        font-size: 10px;
+    }
+
+    .container .home-area .banner .links .Contact {
+        padding: 11px 19px;
+        font-size: 11px;
+        z-index: 2;
+    }
+
+    .container .home-area .banner .smiling-young-man {
+        width: 470px;
+        position: absolute;
+        top: 35px;
+        left: -94px;
+        margin-top: 0;
+    }
+
+    .container .home-area {
+        background: linear-gradient(#000, #00000094),url('../images/MAP.png') no-repeat 20px -45px/ cover;
+        height: 718px;
+    }
+
+    .container .home-area .banner {
+        overflow: visible;
+        background: transparent;
+    }
+
+    .container .home-area .banner .done-project {
+        font-size: 12px;
+    }
+
+    .container .home-area .banner .links .Project {
+        z-index: 2;
+        padding: 5px 20px;
+        font-size: 9px;
+    }
+
+    .container .home-area .banner .font-awesome {
+        padding-top: 24px;
+    }
+    /* Home Area End */
+
+    /* Experience Member and Project Start */
+    .container .content .experience-member-peoject .space {
+        font-size: 16px;
+    }
+
+    .container .content .experience-member-peoject span {
+        font-size: 9px;
+    }
+
+    .container .content .font-awesome-two .icone, .size {
+        font-size: 12px;
+    }
+
+    .container .content .font-awesome-two .icone {
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .container .content .font-awesome-two .fa-slack::after,
+    .container .content .font-awesome-two .fa-asymmetrik::after,
+    .Zoover,
+    .container .content .font-awesome-two .fa-microsoft:after {
+        font-size: 14px;
+    }
+
+    .container .content .home-bottom-area {
+        position: relative;
+        top: -54px;
+    }
+
+    /* Experience Member and Project End */
+
+    /* Service Area Start */
+    .container .service-how-we-work .service-area .fab {
+        font-size: 16px;
+        padding: 46px 0 10px 41%;
+    }
+
+    .container .service-how-we-work .service-area h1 {
+        font-size: 14px;
+    }
+
+    .container .service-how-we-work .desing-development-marketing .w-33 {
+        width: 100%;
+    }
+
+    .container .service-how-we-work .desing-development-marketing,
+    .container .service-how-we-work .service-area .desing, .development {
+        border: none;
+    }
+
+    .container .service-how-we-work .service-area .fa-palette,
+    .container .service-how-we-work .service-area .fa-code,
+    .container .service-how-we-work .service-area .fa-bullhorn {
+        padding: 9px;
+    }
+
+    .container .service-how-we-work .service-area .desing-development-marketing h6 {
+        font-size: 14px;
+    }
+
+    .container .service-how-we-work .desing-development-marketing p {
+        font-size: 12.5px;
+    }
+
+    .container .service-how-we-work .service-area .desing a, .development a, .marketing a {
+        font-size: 11.5px;
+        color: rgb(16, 130, 115);
+    }
+
+    .container .service-how-we-work .service-area .desing a:hover,
+     .development a:hover,
+      .marketing a:hover {
+        text-decoration: underline;
+    }
+
+    .container .service-how-we-work .service-area .desing-development-marketing .desing, .development, .marketing {
+        margin-bottom: 32px;
+        border: 1px solid aliceblue;
+    }
+    /* Service Area End */
+
+    /* How We Work Area Start */
+    .container .how-we-work-area .content img {
+        position: absolute;
+        top: 31px;
+        left: -43px;
+        width: 469px;
+        padding-top: 0;
+    }
+
+    .container .how-we-work-area .img-bg {
+        width: 100%;
+        height: 500px;
+    }
+
+    .container .how-we-work-area {
+        height: auto;
+        text-align: center;
+    }
+
+    .container .how-we-work-area .content .how-we-work {
+        padding: 0;
+    }
+
+    .container .how-we-work-area .content .how-we-work .fab,
+    .container .how-we-work-area .content .how-we-work .fab:after {
+        font-size: 12px;
+    }
+
+    .container .how-we-work-area .content .how-we-work h1 {
+        font-size: 16px;
+        color: #660b9a;
+    }
+
+    .container .how-we-work-area .content .how-we-work .one,
+    .container .how-we-work-area .content .how-we-work .two, 
+    .container .how-we-work-area .content .how-we-work .three {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    .container .how-we-work-area .content .how-we-work ol a {
+        font-size: 15px;
+    }
+
+    .container .how-we-work-area .content .how-we-work .one {
+        margin-left: -36px;
+    }
+
+    .container .how-we-work-area .content .how-we-work .fab {
+        margin-top: 24px;
+    }
+
+    .container .how-we-work-area .content .how-we-work ol li:hover {
+        border-radius: 9px;
+        
+     }
+    /* How We Work Area End */
+
+    /* Sing Up Area Start  */
+    .container .sign-up {
+        padding: 35PX 0;
+    }
+
+    .container .sign-up h1 {
+        font-size: 16px;
+    }
+
+    .container .sign-up strong {
+        font-size: 8px;
+    }
+
+    .container .sign-up .email {
+        width: 100%;
+    }
+
+    .container .sign-up .email form #email {
+        width: 61%;
+    }
+
+    .container .sign-up .email form input {
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .container .sign-up .email [type="submit"] {
+        font-size: 11px;
+    }
+    /* Sign Up Area End */
+
+    /* contact Area Css Start */
+    .res-none {
+        display: none;
+    }
+
+    .none {
+        display: block;
+        padding: 10px;
+    }
+
+    .container .contact-area .w-50 .img-bg [alt="Businessman"] {
+        border: 3px solid #242758;
+        background: linear-gradient(black,#292828);
+        margin: 0 auto;
+        width: 50%;
+        position: static;
+    }
+
+    .container .contact-area .w-50 .img-bg {
+        background: none;
+    }
+
+    .container .contact-area form input[type="submit"] {
+        width: 50%;
+    }
+
+    .container .contact-area form input[type="text"], textarea {
+        width: 100%;
+    }
+
+    .container .contact-area .color h1 {
+        font-size: 18px;
+    }
+
+    .contact-area .content .color {
+        text-align: center;
+        padding: 0 5px;
+    }
+
+    .container .how-we-work-area .content .how-we-work ol li:hover {
+        padding: 10px 0px 10px 0px;
+    }
+    /* contact Area Css End */
+}
+/* Phone view css End */
+
+
+@media only screen and (max-width: 360px) {
+    .container .heading-area .logo h1 {
+        left: 155px;
+    }
+
+    .w-10 {
+        width: 20%;
+    }
+
+    .container .content .font-awesome-two .icone {
+        padding-right: 21px;
+    }
+
+    .container .how-we-work-area .content img {
+        top: 100px;
+        left: -43px;
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
