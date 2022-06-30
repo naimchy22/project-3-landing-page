@@ -523,7 +523,25 @@
 /* Phone view css End */
 
 
+@media only screen and (max-width: 360px) {
+    .container .heading-area .logo h1 {
+        left: 155px;
+    }
 
+    .w-10 {
+        width: 20%;
+    }
+
+    .container .content .font-awesome-two .icone {
+        padding-right: 21px;
+    }
+
+    .container .how-we-work-area .content img {
+        top: 100px;
+        left: -43px;
+        width: 400px;
+    }
+}
 
 
 
