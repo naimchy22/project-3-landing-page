@@ -1,0 +1,89 @@
+/* Project-3 Desktop-veiw Animation-and-Hover Effect Css Is Here */
+
+
+/* Heading Area Animation And Hover Css Strat  */
+/* 
+.container .heading-area .menu a::before {
+    content: '';
+    display: block;
+    color: #408277;
+    background-color: #408277;
+    width: 0;
+    height: 2px;
+    transition: .3s;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+
+.container .heading-area .menu a:hover::before {
+    width: 100%;
+}
+ */
+
+
+.container .heading-area .menu a:hover {
+    color: #408277;
+}
+/* Heading Area Animation And Hover Css End  */
+
+/* banner area hover and animation effect start */
+
+.container .home-area .banner .font-awesome [class$="twitter"]:hover {
+    transform: rotateZ(45deg);
+    box-shadow: 0 0 13px 0 #ffffffc9;
+}
+
+.container .home-area .banner .font-awesome [class$="instagram"]:hover {
+    box-shadow: 0 0 12px 0 #feb800;
+    transform: rotateZ(45deg);
+}
+
+.container .content .experience-member-peoject span:hover {
+    color: #dce1e8;
+    
+}
+
+.container .home-area .banner .links .Contact:hover,
+.container .home-area .banner .links .Project:hover {
+    box-shadow: 1px 0px 6px 0 #ffffffbd;
+    background-color: #000000;
+}
+
+/* banner area hover and animation effect end */
+
+/* Service Area Hover Css Start */
+.container .service-how-we-work .service-area .desing:hover, 
+.container .service-how-we-work .service-area .development:hover ,
+.container .service-how-we-work .service-area .marketing:hover {
+    background: rgba(21, 35, 101, 0.5);
+}
+
+.container .service-how-we-work .service-area .desing:hover .fa-palette, 
+.container .service-how-we-work .service-area .development:hover .fa-code, 
+.container .service-how-we-work .service-area .marketing:hover .fa-bullhorn {
+    transform: rotatez(360deg);
+    box-shadow: 0 0 10px 0 white;
+}
+
+.container .service-how-we-work .service-area .desing a:hover, .development a:hover, .marketing a:hover {
+    text-decoration: underline;
+}
+/* Service Area Hover Css End */
+
+/* How We Work Area Hover AND Animation Css Start  */
+
+.container .how-we-work-area .content .how-we-work ol li:hover {
+	background-color: #43a091;
+	padding: 10px 0px 10px 24px;
+	border-radius: 49px;
+}
+
+/* How We Work Area Hover AND Animation Css End  */
+
+/* Contact Area Hover and Animation Css Start */
+.container .contact-area .content .color input[type="submit"]:hover {
+	background-color: #000;
+}
+/* Contact Area Hover and Animation Css End */

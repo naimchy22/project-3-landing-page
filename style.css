@@ -16,14 +16,14 @@
 }
 
 
-.w-20 {
-    width: 20%;
+.w-15 {
+    width: 15%;
     overflow: hidden;
     box-sizing: border-box;
 }
 
-.w-50 {
-    width: 50%;
+.w-55 {
+    width: 55%;
     overflow: hidden;
     float: left;
     box-sizing: border-box;
@@ -84,6 +84,7 @@ label {
     float: left;
     margin-top: 23px;
     color: #dfe6e9;
+    text-shadow: 0px -1px 0px white;
 }
 
 .container .heading-area .logo h1 span {
@@ -95,13 +96,13 @@ label {
 
 .container .heading-area .link {
 	padding-top: 21px;
-	padding-left: 142px;
+	padding-left: 84px;
     float: right;
 }
 
 .container .heading-area .menu {
     float: left;
-    padding-left: 168px;
+    padding-left: 85px;
     padding-top: 21px;
 }
 
@@ -119,12 +120,15 @@ label {
 
 .container .heading-area .menu a {
 	padding: 10px 15px;
+    margin: 0 3px;
 	color: #fbfbfb;
 	text-decoration: none;
     display: block;
     font-weight: bold;
     font-size: 14px;
-    transition: .5s;
+    transition: .6s;
+    position: relative;
+    letter-spacing: .3px;
 }
 
 .container .heading-area span {
@@ -318,34 +322,6 @@ label {
 }
 /* banner area start */
 
-/* banner area hover and animation effect start */
-.container .heading-area .menu a:hover {
-    color: #408277;
-}
-
-.container .home-area .banner .font-awesome [class$="twitter"]:hover {
-    transform: rotateZ(45deg);
-    box-shadow: 0 0 13px 0 #ffffffc9;
-}
-
-.container .home-area .banner .font-awesome [class$="instagram"]:hover {
-    box-shadow: 0 0 12px 0 #feb800;
-    transform: rotateZ(45deg);
-}
-
-.container .content .experience-member-peoject span:hover {
-    color: #dce1e8;
-    
-}
-
-.container .home-area .banner .links .Contact:hover,
-.container .home-area .banner .links .Project:hover {
-    box-shadow: 1px 0px 6px 0 #ffffffbd;
-    background-color: #000000;
-}
-
-/* banner area hover and animation effect end */
-
 /* Service And How We Work start */
 .container .service-how-we-work  {
     background-color: #000;
@@ -381,7 +357,7 @@ label {
 .container .service-how-we-work .service-area .desing, 
 .container .service-how-we-work .service-area .development,
 .container .service-how-we-work .service-area .marketing {
-    padding: 20px; 
+    padding: 22px;
     transition: .5s;
 }
 
@@ -401,14 +377,16 @@ label {
     color: #faf8fd;
     border-radius: 50px;
     margin-bottom: 11px;
+    transition: .8s;
 }
 
 .container .service-how-we-work .service-area .fa-code {
     background-color: #0c2264;
-    padding: 12px;
+    padding: 12px 10px;
     color: #faf8fd;
     border-radius: 50px;
     margin-bottom: 11px;
+    transition: .8s;
 }
 
 .container .service-how-we-work .service-area .fa-bullhorn {
@@ -417,6 +395,7 @@ label {
     color: #faf8fd;
     border-radius: 50px;
     margin-bottom: 11px;
+    transition: .8s;
 }
 
 .container .service-how-we-work .service-area .desing-development-marketing h6 {
@@ -439,14 +418,6 @@ label {
 }
 /* service area css end */
 
-/* Service Area Hover Css Start */
-.container .service-how-we-work .service-area .desing:hover, 
-.container .service-how-we-work .service-area .development:hover ,
-.container .service-how-we-work .service-area .marketing:hover {
-    background: rgba(21, 35, 101, 0.5);
-
-}
-/* Service Area Hover Css End */
 
 /* How We work area css start */
 .container .how-we-work-area .img-bg {
@@ -508,12 +479,6 @@ label {
 .container .how-we-work-area .content .how-we-work ol li {
     margin-bottom: 65px;
     transition: .5s;
-}
-
-.container .how-we-work-area .content .how-we-work ol li:hover {
-	background-color: #43a091;
-	padding: 10px 0px 10px 24px;
-	border-radius: 49px;
 }
 
 .container .how-we-work-area .content .how-we-work .one,
@@ -680,10 +645,6 @@ textarea {
 
 .container .contact-area .content .color input[type="submit"] {
     transition: .5s;
-}
-
-.container .contact-area .content .color input[type="submit"]:hover {
-	background-color: #000;
 }
 
 .none {

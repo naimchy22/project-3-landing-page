@@ -19,7 +19,7 @@
 
     .container .heading-area .link {
         padding-top: 15px;
-        padding-left: 0px;
+        padding-left: 42px;
     }
 
     .container .home-area .banner .smiling-young-man {
@@ -48,7 +48,7 @@
     }
 
     .container .content .font-awesome-two .icone {
-        margin-right: 94px;
+        padding-right: 95px;
     }
 
     .container .service-how-we-work .service-area .fab {
