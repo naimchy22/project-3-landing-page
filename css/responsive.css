@@ -156,11 +156,12 @@
 
 
 
-/* Phone view css start */
+/* Phone view screen width:428px; css start */
+
 @media only screen and (max-width: 428px) {
     /* Common Css Start */
-    .w-10 {
-        width: 15%;
+    .w-15 {
+        width: 20%;
     }
 
     /* Common Css End */
@@ -175,7 +176,7 @@
     .container .heading-area .logo h1 {
         position: absolute;
         left: 192px;
-        top: 8%;
+        top: 18%;
         margin: 0;
         font-size: 20px;
     }
@@ -199,6 +200,7 @@
 
     .container .heading-area {
         overflow: visible;
+        height: 45px;
     }
 
     .container .heading-area .menu ul {
@@ -209,6 +211,8 @@
         background: #0b192b;
         text-align: center;
         display: none;
+        transition: .2s;
+
     }
 
     .container .heading-area label {
@@ -218,7 +222,7 @@
     .container .heading-area .menu .fa-bars {
         position: absolute;
         top: 12px;
-        font-size: 19px;
+        font-size: 22px;
         color: #fff;
     }
 
@@ -230,10 +234,14 @@
         color: #fff;
     }
 
-    .container .heading-area .menu input:checked + ul {
+    .container .heading-area .menu input:checked ~ ul {
         display: block;
     }
 
+    .container .heading-area .menu input:checked + label .fa-bars {
+        color: #42a091;
+        transition: .3s;
+    }
     /* Heading Area End */
 
     /* Home Area Start */
@@ -359,9 +367,12 @@
     }
 
     .container .service-how-we-work .service-area .fa-palette,
-    .container .service-how-we-work .service-area .fa-code,
     .container .service-how-we-work .service-area .fa-bullhorn {
-        padding: 9px;
+        padding: 10px;
+    }
+
+    .container .service-how-we-work .service-area .fa-code {
+        padding: 11px 9px;
     }
 
     .container .service-how-we-work .service-area .desing-development-marketing h6 {
@@ -522,15 +533,17 @@
     }
     /* contact Area Css End */
 }
-/* Phone view css End */
 
+/* Phone view screen width:428px; css End */
+
+/* Phone view screen width: 360px css start */
 
 @media only screen and (max-width: 360px) {
     .container .heading-area .logo h1 {
         left: 145px;
     }
 
-    .w-10 {
+    .w-15 {
         width: 20%;
     }
 
@@ -571,3 +584,7 @@
         font-size: 13px;
     }
 }
+
+/* Phone view screen width: 360px css End  */
+
+

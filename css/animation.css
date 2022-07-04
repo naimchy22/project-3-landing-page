@@ -2,8 +2,8 @@
 
 
 /* Heading Area Animation And Hover Css Strat  */
-/* 
-.container .heading-area .menu a::before {
+
+/* .container .heading-area .menu a::before {
     content: '';
     display: block;
     color: #408277;
@@ -19,8 +19,8 @@
 
 .container .heading-area .menu a:hover::before {
     width: 100%;
-}
- */
+} */
+
 
 
 .container .heading-area .menu a:hover {
