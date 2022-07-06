@@ -629,8 +629,9 @@ label {
 }
 
 .container .contact-area .color input:focus,
-textarea {
+textarea:focus {
     outline: none;
+    border: 1.5px solid #232657;
 }
 
 .container .contact-area .content .color .fa-usps::after {
