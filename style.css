@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -81,14 +81,17 @@ label {
     display: inline-block;
 }
 
-.container .heading-area .logo h1 {
+.container .heading-area .logo .logo-letter {
     float: left;
-    margin-top: 11px;
+    margin-top: 0;
     color: #dfe6e9;
     text-shadow: 0px -1px 0px white;
+    font-weight: bolder;
+    font-size: 24px;
+    display: block;
 }
 
-.container .heading-area .logo h1 span {
+.container .heading-area .logo .logo-letter span {
     color: #d63031;
 }
 .container .heading-area .left {
@@ -117,6 +120,7 @@ label {
     display: inline-block;
     font-weight: bold;
     padding: 10px 15px;
+    transition: .5s;
 }
 
 .container .heading-area .menu a {
@@ -133,7 +137,7 @@ label {
 }
 
 .container .heading-area span {
-    padding: 10px 0;
+    padding: 10px 0 0;
 }
 
 /* banner area start */

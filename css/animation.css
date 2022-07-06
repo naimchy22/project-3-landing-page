@@ -19,9 +19,8 @@
 
 .container .heading-area .menu a:hover::before {
     width: 100%;
+}
 } */
-
-
 
 .container .heading-area .menu a:hover {
     color: #408277;
