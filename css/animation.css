@@ -3,14 +3,14 @@
 
 /* Heading Area Animation And Hover Css Strat  */
 
-/* .container .heading-area .menu a::before {
+.container .heading-area .menu a::before {
     content: '';
     display: block;
     color: #408277;
     background-color: #408277;
     width: 0;
     height: 2px;
-    transition: .3s;
+    transition: .3s linear;
     border-radius: 50px;
     position: absolute;
     left: 0;
@@ -20,7 +20,7 @@
 .container .heading-area .menu a:hover::before {
     width: 100%;
 }
-} */
+
 
 .container .heading-area .menu a:hover {
     color: #408277;

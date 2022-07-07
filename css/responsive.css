@@ -194,6 +194,7 @@
         top: 8px;
         right: 0;
         transition: .5s;
+        cursor: auto;
     }
 
     .container .heading-area .link a:hover {
@@ -276,6 +277,11 @@
         font-size: 12px;
     }
 
+    .container .home-area .banner .font-awesome [class$="twitter"],
+    .container .home-area .banner .font-awesome [class$="instagram"] {
+        cursor: auto;
+    }
+
     .container .home-area .banner h1 {
         font-size: 19px;
     }
@@ -321,6 +327,12 @@
     .container .home-area .banner .font-awesome {
         padding-top: 24px;
     }
+
+    .container .home-area .banner .links .Contact,
+    .container .home-area .banner .links .Project {
+        cursor: auto;
+    }
+
     /* Home Area End */
 
     /* Experience Member and Project Start */
@@ -528,7 +540,6 @@
         position: relative;
         overflow: hidden;
         transition: .3s;
-        cursor: pointer;
     }
 
     .none::before {
@@ -631,6 +642,10 @@
         width: 50%;
     }
 
+    .container .contact-area .content .color input[type="submit"] {
+        cursor: auto;
+    }
+
     .container .contact-area form input[type="text"], textarea {
         width: 100%;
     }
@@ -647,6 +662,7 @@
     .container .how-we-work-area .content .how-we-work ol li:hover {
         padding: 10px 0px 10px 0px;
     }
+
 /* contact Area Css End */
 }
 
