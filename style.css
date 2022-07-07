@@ -568,6 +568,7 @@ label {
     font-weight: bold;
     font-size: 12px;
     color: #fff;
+    cursor: pointer;
 }
 
 /* sign up Area Css End */
@@ -628,7 +629,7 @@ label {
 	border: 3px solid #242758;
 }
 
-.container .contact-area .color input:focus,
+.container .contact-area .color input[type="text"]:focus,
 textarea:focus {
     outline: none;
     border: 1.5px solid #232657;
@@ -651,6 +652,7 @@ textarea:focus {
 
 .container .contact-area .content .color input[type="submit"] {
     transition: .5s;
+    cursor: pointer;
 }
 
 .none {

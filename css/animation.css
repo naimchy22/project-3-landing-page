@@ -25,6 +25,12 @@
 .container .heading-area .menu a:hover {
     color: #408277;
 }
+
+.container .heading-area .link a:hover {
+    background: #000;
+    border: 1px solid #fefefe;
+    color: aliceblue;
+}
 /* Heading Area Animation And Hover Css End  */
 
 /* banner area hover and animation effect start */

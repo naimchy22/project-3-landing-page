@@ -175,10 +175,11 @@
 
     .container .heading-area .logo .logo-letter {
         position: absolute;
-        left: 192px;
-        top: -10%;
+        left: 50%;
+        top: 33%;
         margin: 0;
         font-size: 20px;
+        transform: translate(-50%,-50%);
     }
 
     .container .heading-area .menu {
@@ -504,6 +505,7 @@
     .none {
         display: block;
         padding: 10px;
+        margin-bottom: 12px;
     }
 
     .container .contact-area .w-50 .img-anim [alt="Businessman"] {
@@ -526,6 +528,7 @@
         position: relative;
         overflow: hidden;
         transition: .3s;
+        cursor: pointer;
     }
 
     .none::before {
@@ -652,10 +655,6 @@
 /* Phone view screen width: 360px css start */
 
 @media only screen and (max-width: 360px) {
-    .container .heading-area .logo .logo-letter {
-        left: 145px;
-    }
-
     .w-15 {
         width: 21%;
     }
@@ -703,8 +702,6 @@
     .none::before {
         inset: -10px 125px;
     }
-
-
 }
 
 /* Phone view screen width: 360px css End  */
