@@ -168,6 +168,15 @@
 
     
     /* Heading Area Start */
+
+    .container .heading-area .menu a::before {
+        content: '';
+        background-color: transparent;
+        width: 0;
+        height: 0;
+    }
+    
+
     .container .heading-area .link {
         position: relative;
         padding-left: 0px;
