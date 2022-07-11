@@ -677,6 +677,25 @@
 
 /* Phone view screen width:428px; css End */
 
+/* Phone view screen width:380px; css Strt */
+@media only screen and (max-width: 380px) {
+    .container .home-area .content .banner .padding {
+        left: 100px;
+    }
+
+    .container .content .font-awesome-two .icone {
+        padding-right: 27px;
+    }
+
+    .none {
+        height: 355px;
+    }
+
+    .container .how-we-work-area .content img {
+        left: -63px;
+    }
+}
+/* Phone view screen width:380px; css Strt */
 /* Phone view screen width: 360px css start */
 
 @media only screen and (max-width: 360px) {
