@@ -1,3 +1,28 @@
+@media only screen and (max-width: 992px) {
+    .container .how-we-work-area .content .how-we-work ol a {
+        font-size: 15px;
+    }
+
+    .container .how-we-work-area .content .how-we-work h1 {
+        font-size: 22px;
+    }
+
+    .container .how-we-work-area .img-bg img {
+        max-width: 100%;
+        min-width: 100%;
+        position: absolute;
+        top: 19%;
+    }
+
+    .container .how-we-work-area .content .how-we-work {
+        padding: 30px 0px 0px 23px;
+    }
+
+    .container .how-we-work-area .img-bg {
+        height: 421px;
+    }
+}
+
 /* Ipad view css start */
 @media only screen and (max-width: 768px) {
 
@@ -18,7 +43,7 @@
     }
 
     .container .heading-area .menu a {
-        padding: 0;
+        padding: 10px 0;
     }
 
     .container .heading-area .menu a::before {
@@ -74,7 +99,7 @@
         top: 100%;
         left: 0%;
         width: 0%;
-        background-image: linear-gradient(to right top, #141314, #19131a, #1b1421, #1b1529, #181732, #151d3b, #0e2444, #002b4d, #003855, #004459, #004f5a, #0f5a5a);
+        background-image: linear-gradient(to bottom, #000000, #17000c, #1f001b, #1f012c, #0b0941);
         text-align: center;
         visibility: hidden;
         opacity: 0;
@@ -111,7 +136,6 @@
     /* Heading Area End */
     /* banner area start */
     .container .home-area .banner .smiling-young-man {
-        margin-top: 112px;
         max-width: 361px;
         min-width: 300px;
     }
@@ -226,7 +250,7 @@
 
     
     .container .sign-up .email {
-        width: 58%;
+        width: 100%;
     }
 
     .container .sign-up h1 {
@@ -306,7 +330,7 @@
         display: flex;
         justify-content: flex-end;
         overflow: hidden;
-        height: 292px;
+        height: 310px;
     }
 
     .container .home-area .banner .font-awesome [class$="twitter"] {
@@ -741,7 +765,7 @@
     }
 
     .container .contact-area .hire-me {
-        height: 320px;
+        height: 302px;
     }
 
     .container .contact-area .color h1 {
@@ -753,7 +777,7 @@
     }
 }
 /* Phone view screen width:375px; css end */
-
+/* Phone view screen width:340px; css start */
 @media only screen and (max-width: 340px) {
     .hire-me::before {
         inset: -1px 113px;
@@ -784,8 +808,6 @@
     .container .how-we-work-area .img-bg {
         height: 450px;
     }
-
-
 }
 
 

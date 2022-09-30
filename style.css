@@ -9,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+    transition: .5s;
 }
 
 /* common css start */
